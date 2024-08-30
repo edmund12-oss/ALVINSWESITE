@@ -1218,7 +1218,7 @@ section,
 .services .card {
   background-color: var(--surface-color);
   color: var(--default-color);
-  border: 2px solid color-mix(in srgb, var(--heading-color), transparent 0%);
+  border: 2px solid color-mix(in srgb, var(--heading-color), transparent 50%);
   position: relative;
   border-radius: 0;
   height: 100%;
