@@ -1221,6 +1221,7 @@ section,
   border: 1px solid color-mix(in srgb, var(--heading-color), transparent 70%);
   position: relative;
   border-radius: 0;
+  height: 100%;
 }
 
 .services .card .card-img {
