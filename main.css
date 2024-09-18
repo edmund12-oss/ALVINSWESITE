@@ -2238,7 +2238,7 @@ section,
   align-items: center;
   background-color: #3e4a5b;
   border-radius: 25px;
-  margin: 30px
+  
 }
 
 .values .value {
@@ -2247,6 +2247,7 @@ section,
  border-radius: 10px;
  text-align: center;
  transition: background-color 0.3s ease;
+  margin: 10px;
   
 }
 
@@ -2268,4 +2269,16 @@ section,
   margin-bottom: 10px;  
 }
 
+@media (max-width: 768px) {
+  .values {
+    flex-direction: coulumn;
+    align-items: stretch;
+  }
 
+.value {
+  width: 100%;
+  margin: 10px 0;
+}
+  
+  
+}
