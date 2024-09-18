@@ -2237,7 +2237,8 @@ section,
   justify-content: center;
   align-items: center;
   background-color: #3e4a5b;
-  border-radius: 10px;
+  border-radius: 25px;
+  margin: 30px
 }
 
 .values .value {
