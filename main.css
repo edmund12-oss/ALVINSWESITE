@@ -2243,7 +2243,7 @@ section,
  color: white;
  padding: 20px;
  background-color: #0d42ff;
- border-radius: 50px;
+ border-radius: 0px;
  text-align: center;
  transition: background-color 0.3s ease;
  margin: 10px;
