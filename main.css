@@ -2238,6 +2238,7 @@ section,
   align-items: center;
   background-color: #3e4a5b;
   border-radius: 25px;
+   
   
 }
 
@@ -2247,7 +2248,8 @@ section,
  border-radius: 10px;
  text-align: center;
  transition: background-color 0.3s ease;
-  margin: 10px;
+ margin: 10px;
+ width: 200px;
   
 }
 
