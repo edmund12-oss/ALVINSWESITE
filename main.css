@@ -1753,17 +1753,11 @@ section,
 # Team Section
 --------------------------------------------------------------*/
 
-.members {
-  position: relative;
-  display: flex;
- 
 
-}
 
 
 .member {
   position: relative;
-  flex: 1;
   background-color: var(--surface-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   text-align: center;
