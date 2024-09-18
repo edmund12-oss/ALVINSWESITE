@@ -2237,7 +2237,6 @@ section,
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
 .values .value {
@@ -2248,9 +2247,7 @@ section,
  text-align: center;
  transition: background-color 0.3s ease;
  margin: 10px;
- width: 200px;
- height: 300px; 
-  
+ width: 200px;  
 }
 
 .values .value h3 {
