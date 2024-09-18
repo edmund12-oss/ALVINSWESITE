@@ -2239,6 +2239,7 @@ section,
   background-color: #3e4a5b;
   border-radius: 25px;
   margin: 30px
+  flex-wrap: wrap;
 }
 
 .values .value {
