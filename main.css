@@ -2388,8 +2388,8 @@ section,
 
 .project-item img {
   border-radius: 15px;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 
 @media (max-width: 768px;) {
