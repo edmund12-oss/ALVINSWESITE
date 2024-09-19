@@ -2298,17 +2298,19 @@ section,
   position: relative;
   display: flex;
   padding: 20px;
+  flex-wrap: wrap;
   
   
 }
 
 .service-item {
   position: relative;
-  width: 450px;
+  width: 1000px;
   padding: 15px;
   margin: 15px;
   background-color: var(--heading-color);
   border-radius: 20px;
+  align-items: start;
   
 }
 
