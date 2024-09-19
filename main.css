@@ -1757,7 +1757,7 @@ section,
 # Team Section
 --------------------------------------------------------------*/
 
-..members {
+.members {
   position: relative;
   display: flex;
   align-items: center;
@@ -1778,39 +1778,38 @@ section,
   height: 380px;
 }
 
-.member i {
-  color: cyan;
-}
 
-.team h4 {
+
+.member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-.team p {
+.member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.team .social {
+.member .social {
   margin-top: 15px;
 }
 
-.team .social a {
+.member .social a {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   transition: 0.3s;
 }
 
-.team .social a:hover {
+.member .social a:hover {
   color: var(--accent-color);
 }
 
-.team .social i {
+.member .social i {
   font-size: 18px;
   margin: 0 2px;
+  color: var(--accent-color);
 }
 
 @media (max-width: 768px;) {
