@@ -1806,7 +1806,7 @@ section,
   color: var(--accent-color);
 }
 
-.member i {
+.member p i {
   font-size: 18px;
   margin: 0 2px;
   color: #0d42ff;
