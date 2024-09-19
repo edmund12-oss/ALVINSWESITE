@@ -2299,6 +2299,8 @@ section,
   display: flex;
   padding: 20px;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -2310,8 +2312,7 @@ section,
   margin: 15px;
   background-color: var(--heading-color);
   border-radius: 20px;
-  align-items: center;
-  
+  text-align: center;
 }
 
 .service-item h3 {
