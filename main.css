@@ -2290,3 +2290,36 @@ section,
   
 }
 
+/*--------------------------------------------------------------
+# Service Items Section
+--------------------------------------------------------------*/
+
+.service-items {
+  position: relative;
+  display: flex;
+  padding: 20px;
+  
+  
+}
+
+.service-item {
+  position: relative;
+  width: 450px;
+  padding: 15px;
+  margin: 15px;
+  background-color: var(--heading-color);
+  border-radius: 20px;
+  
+}
+
+.service-item h3 {
+  color: white;  
+}
+
+.service-item a {
+  color: white;
+}
+
+.service-item icon {
+  color: white;
+}
