@@ -2190,11 +2190,11 @@ section,
 }
 
 .autoslideimg {
-  width: 400px;
-  height: 500px;
-  border-radius: 0px;
+  width: 350px;
+  height: 400px;
+  border-radius: 15px;
   text-align: center;
-  border: 3px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   
 } 
 
