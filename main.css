@@ -2368,7 +2368,7 @@ section,
   background-color: white;
   padding: 30px;
   width: 400px;
-  height: 250px;
+  height: 400px;
   margin: 15px
 }
 
@@ -2387,6 +2387,6 @@ section,
 
 .project-item img {
   border-radius: 15px;
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
 }
