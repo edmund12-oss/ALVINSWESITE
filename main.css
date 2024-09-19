@@ -2299,18 +2299,17 @@ section,
   display: flex;
   padding: 20px;
   flex-wrap: wrap;
-  
-  
 }
 
 .service-item {
   position: relative;
-  width: 1000px;
+  width: 650px;
+  height: 500px;
   padding: 15px;
   margin: 15px;
   background-color: var(--heading-color);
   border-radius: 20px;
-  align-items: start;
+  align-items: center;
   
 }
 
