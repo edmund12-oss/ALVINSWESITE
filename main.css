@@ -2350,3 +2350,39 @@ section,
   }
 }
 
+/*--------------------------------------------------------------
+# Active Projects Section
+--------------------------------------------------------------*/
+
+.active-projects {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.project-item {
+  position: relative;
+  text-align: center;
+  border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  height: 500px;
+  margin: 15px
+}
+
+.project-item h3 {
+  
+}
+
+.project-item p {
+  
+}
+
+.project-item img {
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+}
