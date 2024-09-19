@@ -2218,7 +2218,7 @@ section,
 .autoslideimg {
   width: 350px;
   height: 400px;
-  border-radius: 15px;
+  border-radius: 8px;
   text-align: center;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   
