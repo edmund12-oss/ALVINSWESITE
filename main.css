@@ -1252,7 +1252,7 @@ section,
 }
 
 .bound-right {
-  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
 .service  h3 {
