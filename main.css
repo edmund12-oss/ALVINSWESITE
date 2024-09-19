@@ -1802,14 +1802,14 @@ section,
   transition: 0.3s;
 }
 
-.member .social a:hover {
+.member a:hover {
   color: var(--accent-color);
 }
 
-.member .social i {
+.member i {
   font-size: 18px;
   margin: 0 2px;
-  color: var(--accent-color);
+  color: #0d42ff;
 }
 
 @media (max-width: 768px;) {
