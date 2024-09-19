@@ -2242,8 +2242,8 @@ section,
 .values .value {
  color: white;
  padding: 20px;
- background-color: #0d42ff;
- border-radius: 20px;
+ background-color: white;
+ border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
  text-align: center;
  transition: background-color 0.3s ease;
  margin: 10px;
@@ -2268,7 +2268,7 @@ section,
 .values .value .icon {
   font-size: 24px;
   margin-bottom: 10px;
-  color: white;
+  color: var(--accent-color--);
 }
 
 
