@@ -2186,6 +2186,8 @@ section,
   padding: 0px;
   margin-left: 0px;
   text-align: center;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-radius: 15px;
   
 }
 
