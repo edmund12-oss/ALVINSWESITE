@@ -1221,10 +1221,18 @@ section,
 --------------------------------------------------------------*/
 .services {
   position: relative;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
   flex-wrap: wrap;
+}
+
+.service-group {
+  position: relative;
+  width: 600px;
+  padding: 10px;
+  
 }
 
 .service {
@@ -1281,6 +1289,11 @@ section,
     align-items: stretch;
   }
 
+  .service-group {
+    margin: 10px;
+    width: 100%;
+  }
+  
   .service {
     margin: 10px;
     width: 100%;
