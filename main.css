@@ -2402,4 +2402,8 @@ section,
     margin: 10px;
     width: 100%;
   }
+
+  .b-right {
+    border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  }
 }
