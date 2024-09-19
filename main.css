@@ -1219,28 +1219,36 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.services .card {
-  background-color: var(--surface-color);
-  color: var(--default-color);
-  border: 1px solid color-mix(in srgb, var(--heading-color), transparent 70%);
+.services {
   position: relative;
-  border-radius: 0;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
-.services .card .card-img {
-  overflow: hidden;
-  margin-bottom: 15px;
-  border-radius: 0;
-}
-
-.services .card .card-img img {
-  transition: 0.3s ease-in-out;
-  width: 100%;
+.service {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  width: 400px;
   height: 400px;
+  margin: 15px
 }
 
-.services .card h3 {
+.service img {
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+}
+
+.bound-right {
+  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.service  h3 {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 5px;
@@ -1248,16 +1256,16 @@ section,
   text-transform: uppercase;
 }
 
-.services .card a {
+.service a {
   color: var(--heading-color);
   transition: 0.3;
 }
 
-.services .card a:hover {
+.service a:hover {
   color: var(--accent-color);
 }
 
-.services .card p {
+.service p {
   padding: 0 30px;
   margin-bottom: 30px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
@@ -1268,6 +1276,20 @@ section,
   transform: scale(1.1);
 }
 
+@media (max-width: 768px;) {
+  .services {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .service {
+    margin: 10px;
+    width: 100%;
+  }
+
+}
+  
+}
 
 
 /*--------------------------------------------------------------
@@ -1825,71 +1847,7 @@ section,
 }
 
 
-/*--------------------------------------------------------------
-# Service Details Section
---------------------------------------------------------------*/
-.service-details .services-list {
-  background-color: var(--surface-color);
-  padding: 10px 30px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  margin-bottom: 20px;
-}
 
-.service-details .services-list a {
-  display: block;
-  line-height: 1;
-  padding: 8px 0 8px 15px;
-  border-left: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
-  margin: 20px 0;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  transition: 0.3s;
-}
-
-.service-details .services-list a.active {
-  color: var(--heading-color);
-  font-weight: 700;
-  border-color: var(--accent-color);
-}
-
-.service-details .services-list a:hover {
-  border-color: var(--accent-color);
-}
-
-.service-details .services-img {
-  margin-bottom: 20px;
-}
-
-.service-details h3 {
-  font-size: 26px;
-  font-weight: 700;
-}
-
-.service-details h4 {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.service-details p {
-  font-size: 15px;
-}
-
-.service-details ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.service-details ul li {
-  padding: 5px 0;
-  display: flex;
-  align-items: center;
-}
-
-.service-details ul i {
-  font-size: 20px;
-  margin-right: 8px;
-  color: var(--accent-color);
-}
 
 /*--------------------------------------------------------------
 # Alt Pricing Section
@@ -2413,7 +2371,7 @@ section,
 }
 
 .project-item img {
-  border-radius: 15px;
+  border-radius: 8px;
   width: 300px;
   height: 300px;
 }
@@ -2429,10 +2387,6 @@ section,
     width: 100%;
   }
 
-  .project-item img {
-  border-radius: 15px;
-  width: 300px;
-  height: 300px;
 }
   
 }
