@@ -2298,7 +2298,7 @@ section,
   position: relative;
   display: flex;
   padding: 20px;
-  flex-wrap: wrap;
+  
 }
 
 .service-item {
