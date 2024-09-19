@@ -1239,10 +1239,10 @@ section,
   position: relative;
   text-align: center;
   background-color: white;
-  padding: 30px;
+  padding: 10px;
   width: 400px;
   height: 400px;
-  margin: 15px
+  margin: 10px
 }
 
 .service img {
