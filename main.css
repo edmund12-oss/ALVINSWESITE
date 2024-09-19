@@ -2360,6 +2360,7 @@ section,
   align-items: center;
   justify-content: center;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .project-item {
@@ -2389,4 +2390,16 @@ section,
   border-radius: 15px;
   width: 350px;
   height: 350px;
+}
+
+@media (max-width: 768px;) {
+  .active-projects{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-item {
+    margin: 10px;
+    width: 100%;
+  }
 }
