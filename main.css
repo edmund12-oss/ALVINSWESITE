@@ -1776,6 +1776,7 @@ section,
   margin: 10px;
   width: 340px;
   height: 260px;
+  border-radius: 15px;
 }
 
 
@@ -1809,7 +1810,6 @@ section,
 .member p i {
   font-size: 18px;
   margin: 0 2px;
-  color: #0d42ff;
 }
 
 @media (max-width: 768px;) {
