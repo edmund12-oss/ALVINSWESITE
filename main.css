@@ -2365,12 +2365,16 @@ section,
 .project-item {
   position: relative;
   text-align: center;
-  border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   background-color: white;
   padding: 30px;
   width: 400px;
   height: 500px;
   margin: 15px
+}
+
+.b-right {
+  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .project-item h3 {
@@ -2383,6 +2387,6 @@ section,
 
 .project-item img {
   border-radius: 15px;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 450px;
 }
