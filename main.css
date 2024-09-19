@@ -2317,12 +2317,12 @@ section,
 }
 
 .service-item h3 {
-  color: white;
+  color: var(--heading-color);
   margin-bottom: 10px
 }
 
 .service-item a {
-  color: white;
+  color: var(--heading-color);
 }
 
 .service-item .icon-one {
