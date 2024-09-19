@@ -2310,7 +2310,8 @@ section,
   height: 200px;
   padding: 15px;
   margin: 15px;
-  background-color: var(--accent-color);
+  background-color: white;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   border-radius: 20px;
   text-align: center;
 }
@@ -2324,8 +2325,17 @@ section,
   color: white;
 }
 
-.service-item icon {
-  color: white;
+.service-item .icon-one {
+  color: var(--accent-color);
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.service-item .icon-two {
+  color: var(--accent-color);
+  font-size: 10px;
+  margin-right: 5px;
 }
 
 @media (max-width: 768px;) {
