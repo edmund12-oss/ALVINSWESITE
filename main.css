@@ -1985,15 +1985,15 @@ section,
 
 .info-item {
   position: relative;
-  width: 300px;
+  width: 200px;
   padding: 20px;
-  margin: 30px;
+  margin: 25px;
   text-align: center;
   
 }
 
 
- .info-item icon {
+ .info-item .icon {
   color: #0d42ff;
   font-size: 20px; 
 }
@@ -2023,7 +2023,7 @@ section,
    }
   .info-item {
     width: 100%;
-    margin: 30px;
+    margin: 25px;
    }  
 }
 
