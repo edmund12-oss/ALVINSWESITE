@@ -1988,6 +1988,7 @@ section,
   padding: 20px;
   margin: 30px;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 
@@ -2004,6 +2005,18 @@ section,
   transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 768px;) {
+  .info-items {
+    flex-direction: column;
+    align-items: stretch;
+
+  .info-item {
+    width: 100%;
+    margin: 30px;
+   } 
+    
+  }
+}
 
 .contact h3 {
   font-size: 20px;
