@@ -4,7 +4,7 @@ Pure Counter
 
 document.addEventListener("DOMContentLoaded", () => {
 const counters = document.querySelectorAll(".count");
-const speed = 50;
+const speed = 45;
 
 counters.forEach(counter => {
   const updateCount = () => {
@@ -16,7 +16,7 @@ counters.forEach(counter => {
 
     if(count < target) {
       counter.innerText = Math.ceil(count + inc);
-      setTimeout(updateCount, 100);
+      setTimeout(updateCount, 150);
     }
     else {
       counter.innerText = target;
