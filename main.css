@@ -1973,12 +1973,13 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-items{
+ .info-items{
   position: relative;
   display: flex;
   padding: 20px;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   
 }
 
@@ -1988,13 +1989,13 @@ section,
   padding: 20px;
   margin: 30px;
   text-align: center;
-  flex-wrap: wrap;
+  
 }
 
 
  .info-item icon {
-  color: var(--accent-color);
-  font-size: 20px
+  color: #0d42ff;
+  font-size: 20px; 
 }
 
 
