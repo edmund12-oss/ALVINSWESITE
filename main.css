@@ -429,6 +429,7 @@ h6 {
     transition: 0.3s;
     z-index: 9998;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
   }
 
   .navmenu a,
@@ -522,7 +523,7 @@ h6 {
     transition: 0.3s;
   }
 
-  .mobile-nav-active .navmenu>ul {
+  .mobile-nav-active .navmenu ul {
     display: block;
   }
 }
