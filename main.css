@@ -87,6 +87,10 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.header-icon {
+  font-size: 15px;
+}
+
 /* Pulsating Play Button
 ------------------------------*/
 .pulsating-play-btn {
