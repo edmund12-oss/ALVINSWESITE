@@ -1974,29 +1974,24 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-items{
+  position: relative;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
   
-  display: flex;
-  
 }
 
-.info-item-one {
+.info-item {
   position: relative;
-  flex: 1;
-  margin-right: 80px;
+  width: 300px;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
 }
 
-.info-item-two {
-  position: relative;
-  flex: 2;
-  margin-left: 80px;
-}
 
-.info-item-three {
-  position: relative;
-  flex: 3;
-}
-
-.contact .info-item-one i {
+ .info-item i {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-size: 20px;
@@ -2007,36 +2002,8 @@ section,
   align-items: center;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
-  margin-right: 15px;
 }
 
-.contact .info-item-two i {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-size: 20px;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  transition: all 0.3s ease-in-out;
-  margin-right: 15px;
-}
-
-.contact .info-item-three i {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-size: 20px;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  transition: all 0.3s ease-in-out;
-  margin-right: 15px;
-}
 
 .contact h3 {
   font-size: 20px;
