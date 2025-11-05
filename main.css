@@ -1812,13 +1812,14 @@ section,
 
 .member {
   position: relative;
-  background-color: var(--surface-color);
+  background-color: var(--heading-color);
+  color: white;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   text-align: center;
   padding: 30px;
   margin: 10px;
   width: 340px;
-  height: 660px;
+  height: 560px;
   border-radius: 8px;
 }
 
@@ -1827,6 +1828,7 @@ section,
   height: 350px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .member h4 {
