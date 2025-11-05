@@ -1812,8 +1812,8 @@ section,
 
 .member {
   position: relative;
-  background-color: var(--heading-color);
-  color: white;
+  background-color: var(--surface-color);
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   text-align: center;
   padding: 0px 0px 0px 0px;
